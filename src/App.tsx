@@ -67,8 +67,12 @@ function App() {
             </ul>
           </div>
         </div>
-      </div>      
+      </div>   
+      <div className='banner-alignment'>
+        <img src="./images/background.gif" alt="" />
+      </div>        
     </div>
+    
   );
 }
 

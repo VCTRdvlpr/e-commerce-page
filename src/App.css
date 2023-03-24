@@ -17,6 +17,7 @@ body{
   background-color: #333333;
   color: #ffff;
   font-family: 'Comfortaa', cursive;
+  width: 100vw;
 }
 
 .header{   
@@ -76,22 +77,25 @@ body{
   list-style: none;
   display: none;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px;  
+  padding: 25px;
+  background-color: #F6F4DD;
+  border-radius: 15px;
 }
 
 .products-list li{
-  padding: 10px 20px;
-  border: 4px solid #ffff;
-  border-radius: 10px;
+  padding: 10px 20px;  
+  border-radius: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.15s ease-in-out;
+  background-color: #333333;
 }
 
 .products-list li:hover{
   cursor: pointer;
-  background-color: #ffff;
+  background-color: #F6F4DD;
   color: #333333;
   font-weight: bold;
   transition: 0.15s ease-in-out;
@@ -100,4 +104,16 @@ body{
 
 #close-menu-btn{
   display: none;
+}
+
+.banner-alignment{
+  width: 100%;
+  text-align: center;
+  
+}
+
+.banner-alignment img{
+  width: 99%;
+  height: 60vh;  
+  margin: auto;
 }
